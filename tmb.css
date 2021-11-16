@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 50px;
+    background-image: linear-gradient(rgba(184,118,242,1),rgba(86,55,255,1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+  -webkit-appearance:none;
+}
+
+
+.container{
+  
+    min-width: 550px;
+    min-height: 60vh;
+    padding: 30px;
+    background-color: #fafafa;
+    border-radius: 15px; 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.inputDados{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inputDados label{
+    
+    padding: 5px;
+}
+
+.inputDados select{
+    font-size: 15px;
+}
+
+.inputDados input:focus,
+.inputDados select:focus {
+  border-color: #5637FF;
+}
+
+.inputDados input,
+.inputDados select {
+    padding: 7px;
+    border-radius: 8px;
+    width: 50%;
+    outline: none;
+    background-color: #d2d2d2;
+    border: 2px solid transparent;
+}
+
+
+
+#containerResultado{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+#containerResultado strong{
+    color: #5637FF;
+}
+
+#containerResultado h2{
+    color: #5637FF;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+   
+    padding: 13px;
+    width: 70%;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(184,118,242);
+    background: linear-gradient(90deg, rgba(184,118,242,1) 0%, rgba(86,55,255,1) 93%);
+    color: #fafafa;
+    font-size: 20px;
+}
+
+button:hover{
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+
+
+
+
+

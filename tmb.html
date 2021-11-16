@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./tmb.css">
+    <link rel="icon" href="./img/tmb icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>CalkiCal</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <header>
+            <h1 class="title">CalkiCal</h1>
+        </header>
+
+        <form id="form">
+            <div class="inputDados">
+                <label for="peso"><strong>Seu peso</strong></label>
+                <input type="number" id="peso"  required>
+            </div>
+            <div class="inputDados">
+                <label for="altura"><strong>Sua altura</strong></label>
+                <input type="number" id="altura" required>
+            </div>
+            <div class="inputDados">
+                <label for="idade"><strong>Sua idade</strong></label>
+                <input type="number" id="idade" required>
+            </div>
+            <div class="inputDados">
+                <label for="genero"><strong>Seu sexo</strong></label>
+                <select id="genero" required>
+                    <option value="male">Masculino</option>
+                    <option value="female">Feminino</option>
+                </select>
+            </div>
+            <div class="inputDados">
+                <label for="atividadeFisica"><strong>Seu nivel de atividade física</strong></label>
+                <select id="atividadeFisica" required>
+                    <option value="1.2">Sedentário</option>
+                    <option value="1.375">Pouca atividade</option>
+                    <option value="1.55">Atividade moderada</option>
+                    <option value="1.725">Atividade intensa</option>
+                    <option value="1.9">Atividade muito intensa</option>
+                </select>
+            </div>
+
+            <div id="containerResultado">
+
+            </div>
+
+            <div class="btn">
+                <button>Calcular</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./tmb.js"></script>
+
+</body>
+
+</html>
